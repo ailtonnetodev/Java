@@ -1,0 +1,1 @@
+A repository designed to help people study Java using my teaching approach and the methods I believe are most effective for learning. It also serves as a way to keep myself consistent in studying and always improving. Here, I will upload various codes and examples to support learning and practice.
