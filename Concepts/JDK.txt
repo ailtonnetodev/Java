@@ -1,0 +1,4 @@
+The JDK has a virtual machine, the JVM, and something else like a compiler and debugger tools
+that will help us see what is happening in the code in real time.
+or if in case you don't want to develop on a machine, you don't need a JDK, you could use a JRE.
+which is an execution environment.

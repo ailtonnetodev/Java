@@ -1,0 +1,8 @@
+Java is a compiled language, which means that we will go through a change process called
+compilation, which will perform some checks,
+verify if there is anything wrong, and what will be executed is not app.java but app.class.
+Through compilation, it generates a .class through the JVM, and the JVM is a virtual machine that runs on top of the operating system and is between the operating system layer and my application.
+The java point is the file that we can understand, and the class point, with the java c command,
+and it will generate this file, class point, and this file is what the virtual machine can
+understand.
+And when we want to use a virtual machine to develop in Java, we use what we call JDK.
