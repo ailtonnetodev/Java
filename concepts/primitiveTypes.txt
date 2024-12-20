@@ -1,0 +1,28 @@
+Summary of Primitive Types in Java
+
+Primitive types are the most basic and fundamental data types in Java. They are used to
+store simple values directly in memory, without relying on objects. These types are efficient
+and essential for basic operations in code.
+
+In Java, there are 8 primitive types, divided into 4 categories:
+
+ Integer Types (numbers without a decimal point):
+- byte: 8 bits (values from -128 to 127).
+- short: 16 bits (values from -32,768 to 32,767).
+- int: 32 bits (values from -2³¹ to 2³¹-1).
+- long: 64 bits (values from -2⁶³ to 2⁶³-1). *Used for larger numbers, with the suffix `L`.
+
+ Floating-Point Types (numbers with a decimal point):
+- float: 32 bits (precision of about 6 to 7 decimal digits). *Used with the suffix `F`.
+- double: 64 bits (precision of about 15 decimal digits).
+
+ Character Type:
+- char: 16 bits (stores a single Unicode character, like `'A'` or `'\\u0041'`).
+
+ Boolean Type:
+- boolean: 1 bit (stores `true` or `false`, used in conditional expressions).
+
+These types do not have associated methods or functionalities, but they serve as the foundation
+for creating more complex structures in Java. For instance, integers can be used for counts,
+floating-point types for calculations with decimals, and booleans for logical control in
+programs.
