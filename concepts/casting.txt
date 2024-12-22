@@ -1,0 +1,10 @@
+casting in java is the conversion of one data type to another. it can be:
+- implicit: happens automatically when there's no risk of data loss (e.g., int to double)
+- explicit: done manually using (type) when there's a risk of data loss or behavor change
+(e.g., double to int).
+
+e.g
+
+int number = 10;
+double converted = number;  -> Implicit casting
+int truncated = (int) 10.5;  -> Explicit casting
