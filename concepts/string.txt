@@ -1,0 +1,2 @@
+In java string is not a primitive type, but a class, with double quotes, it's used when we want
+to work with large texts.
