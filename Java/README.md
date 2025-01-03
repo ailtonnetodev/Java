@@ -109,4 +109,3 @@ If you'd like to contribute or enhance the repository:
 
 --- 
 
-Let me know if there are additional details you'd like to include! 😊
