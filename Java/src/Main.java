@@ -12,6 +12,11 @@ public class Main {
         dog1.height = 14;
         dog1.weight = 5.6;
 
-        System.out.println(dog1);
+        System.out.println(dog1.getSome());
+        System.out.println(dog1.bark());
+
+        System.out.println("the dog is " + dog1.interact("kidness"));
+        System.out.println("the dog is " + dog1.interact("kick"));
+        System.out.println("the dog is " + dog1.interact(""));
     }
 }
