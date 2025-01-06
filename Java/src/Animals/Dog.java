@@ -2,6 +2,7 @@ package Animals;
 
 public class Dog {
    // Attributes
+   static int numberOfDogs;
    private String name;
    private String color;
    private int height;
@@ -18,9 +19,21 @@ public class Dog {
       this.height = height;
       this.weight = weight;
       this.stateOfMind = stateOfMind;
+
+      numberOfDogs ++;
    }
 
    //methods
+
+
+   public static int getNumberOfDogs() {
+      return numberOfDogs;
+   }
+
+   public static void setNumberOfDogs(int numberOfDogs) {
+      Dog.numberOfDogs = numberOfDogs;
+   }
+
    public String bark() {
       return "woof woof!";
    }
@@ -79,7 +92,14 @@ public class Dog {
       this.stateOfMind = stateOfMind;
    }
 
-//   public String interact(String action) {
+   @Override
+   public String toString() {
+      return "Dog{" +
+              "name='" + name + '\'' +
+              '}';
+   }
+
+   //   public String interact(String action) {
 //      if (action.equals("kidness")) {
 //         this.stateOfMind = "happy";
 //      } else if (action.equals("kick")) {
