@@ -1,12 +1,26 @@
 package Animals;
 
 public class Dog {
+   // Attributes
    private String name;
    private String color;
    private int height;
    private double weight;
    private String stateOfMind;
 
+
+   //builders
+   public Dog() {}
+
+   public Dog(String name, String color, int height, double weight, String stateOfMind) {
+      this.name = name;
+      this.color = color;
+      this.height = height;
+      this.weight = weight;
+      this.stateOfMind = stateOfMind;
+   }
+
+   //methods
    public String bark() {
       return "woof woof!";
    }
