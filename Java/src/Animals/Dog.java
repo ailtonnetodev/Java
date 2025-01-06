@@ -1,11 +1,11 @@
 package Animals;
 
 public class Dog {
-   public String name;
-   public String color;
-   public int height;
-   public double weight;
-   public String stateOfMind;
+   private String name;
+   private String color;
+   private int height;
+   private double weight;
+   private String stateOfMind;
 
    public String bark() {
       return "woof woof!";
@@ -23,6 +23,46 @@ public class Dog {
       }
 
       return this.stateOfMind;
+   }
+
+   public String getName() {
+      return name;
+   }
+
+   public void setName(String name) {
+      this.name = name;
+   }
+
+   public String getColor() {
+      return color;
+   }
+
+   public void setColor(String color) {
+      this.color = color;
+   }
+
+   public int getHeight() {
+      return height;
+   }
+
+   public void setHeight(int height) {
+       this.height = height;
+   }
+
+   public double getWeight() {
+      return height;
+   }
+
+   public void setWeight(double weight) {
+      this.weight = weight;
+   }
+
+   public String getStateOfMind() {
+      return stateOfMind;
+   }
+
+   public void setStateOfMind(String stateOfMind) {
+      this.stateOfMind = stateOfMind;
    }
 
 //   public String interact(String action) {

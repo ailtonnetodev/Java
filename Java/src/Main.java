@@ -7,10 +7,10 @@ public class Main {
 
         Dog dog1 = new Dog();
 
-        dog1.name = "Boby";
-        dog1.color = "orange";
-        dog1.height = 14;
-        dog1.weight = 5.6;
+        dog1.setName("boby");
+        dog1.setColor("orange");
+        dog1.setHeight(30);
+        dog1.setWeight(6.9);
 
         System.out.println(dog1.getSome());
         System.out.println(dog1.bark());
