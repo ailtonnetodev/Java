@@ -16,15 +16,25 @@ public class Dog {
    }
 
    public String interact(String action) {
-      if (action.equals("kidness")) {
-         this.stateOfMind = "happy";
-      } else if (action.equals("kick")) {
-         this.stateOfMind = "bite";
-      } else {
-         this.stateOfMind = "neutal";
+      switch (action) {
+         case "kidness": this.stateOfMind = "happy"; break;
+         case "kick": this.stateOfMind = "bite"; break;
+         default: this.stateOfMind = "neutal"; break;
       }
 
-      return stateOfMind;
+      return this.stateOfMind;
    }
+
+//   public String interact(String action) {
+//      if (action.equals("kidness")) {
+//         this.stateOfMind = "happy";
+//      } else if (action.equals("kick")) {
+//         this.stateOfMind = "bite";
+//      } else {
+//         this.stateOfMind = "neutal";
+//      }
+//
+//      return stateOfMind;
+//   }
 
 }
