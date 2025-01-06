@@ -50,7 +50,7 @@ public class Dog {
    }
 
    public double getWeight() {
-      return height;
+      return weight;
    }
 
    public void setWeight(double weight) {
