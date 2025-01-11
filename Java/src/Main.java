@@ -1,3 +1,5 @@
+import Animals.Bird;
+import Animals.Cat;
 import Animals.Dog;
 
 import static Animals.Dog.getNumberOfDogs;
@@ -7,14 +9,15 @@ import static Animals.Dog.getNumberOfDogs;
 public class Main {
     public static void main(String[] args) {
 
-        Dog dog1 = new Dog("rex", "black", 42, 22.3, "kidness");
+        Dog dog1 = new Dog("bobby", "orange", 56, 22.3, "kidness");
 
-        System.out.println(dog1.getNumberOfDogs());
+        Cat cat1 = new Cat("frajola", "black", 16, 9.6);
 
-        Dog dog2 = new Dog("boby", "orange", 16, 9.6, "");
+        Bird bird1 = new Bird("Jade", "blue", 13, 1.8);
 
-        System.out.println(dog2.getNumberOfDogs());
-        System.out.println(dog1.getNumberOfDogs());
+        dog1.sound();
+        cat1.sound();
+        bird1.sound();
 
     }
 }

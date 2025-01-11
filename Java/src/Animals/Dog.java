@@ -1,20 +1,15 @@
 package Animals;
 
-public class Dog {
+public class Dog extends Animal {
    // Attributes
    static int numberOfDogs;
-   private String name;
-   private String color;
-   private int height;
-   private double weight;
-   private String stateOfMind;
+   protected String tailSize;
 
 
    //builders
-   public Dog() {}
-
    public Dog(String name, String color, int height, double weight, String stateOfMind) {
-      this.name = name;
+       super(name, color, height, weight);
+       this.name = name;
       this.color = color;
       this.height = height;
       this.weight = weight;
@@ -24,8 +19,6 @@ public class Dog {
    }
 
    //methods
-
-
    public static int getNumberOfDogs() {
       return numberOfDogs;
    }
@@ -34,13 +27,6 @@ public class Dog {
       Dog.numberOfDogs = numberOfDogs;
    }
 
-   public String bark() {
-      return "woof woof!";
-   }
-
-   public String getSome() {
-      return "ball";
-   }
 
    public String interact(String action) {
       switch (action) {
@@ -50,6 +36,11 @@ public class Dog {
       }
 
       return this.stateOfMind;
+   }
+
+   @Override
+   public void sound() {
+      System.out.println("woof woof");
    }
 
    public String getName() {
